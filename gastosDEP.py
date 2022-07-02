@@ -1,8 +1,5 @@
 import requests
 
-
-
-
 url = 'https://dadosabertos.camara.leg.br/api/v2/deputados?ordem=ASC&ordenarPor=nome'
 resp = requests.get(url).json()
 
